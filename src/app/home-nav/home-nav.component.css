@@ -1,0 +1,19 @@
+ul {
+  height:40px;
+  width:1200px;
+  margin:0 auto;
+}
+ ul li {
+   float: left;
+ }
+ul li>a {
+  height:40px;
+  line-height: 40px;
+  padding:0 30px;
+  display: inline-block;
+  font-size:14px;
+  color: #666;
+}
+ul li>a:hover {
+  color: #72ad0e;
+}

@@ -1,0 +1,15 @@
+.search {
+  width:1200px;
+  height:125px;
+}
+.searchLeft {
+  width:200px;
+  height:93px;
+  padding:16px 0;
+  float: left;
+}
+.searchRight {
+  width:714px;
+  height:125px;
+  float: right;
+}
