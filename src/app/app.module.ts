@@ -8,6 +8,7 @@ import { AppHeaderComponent } from './app-header/app-header.component';
 import { AppLogoComponent } from './app-logo/app-logo.component';
 import { HomeNavComponent } from './home-nav/home-nav.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
+import { SelectivePreferenceComponent } from './selective-preference/selective-preference.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
     AppHeaderComponent,
     AppLogoComponent,
     HomeNavComponent,
-    HomeBannerComponent
+    HomeBannerComponent,
+    SelectivePreferenceComponent
   ],
   imports: [
     BrowserModule,
