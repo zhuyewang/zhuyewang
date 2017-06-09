@@ -1,0 +1,177 @@
+.agritourisme {
+  width:1200px;
+  height:400px;
+  margin-top:20px;
+}
+  .atTop {
+    width:1200px;
+    height: 80px;
+  }
+    .atTop>h1 {
+      width: 500px;
+      height: 80px;
+      line-height:80px;
+      float: left;
+      font-size:22px;
+      font-weight: bold;
+    }
+    .atTop>h1>span {
+      font-size: 14px;
+      color: #999;
+    }
+    .atTop>article {
+      float: right;
+      width:500px;
+      height:80px;
+      padding:20px 5px;
+      position: relative;
+    }
+    .atTop>article>span {
+      line-height:40px;
+      float: left;
+      height:40px;
+      font-size:14px;
+      font-weight: bolder;
+    }
+    .atTop>article>span:nth-of-type(1) {
+      width: 60px;
+      color: firebrick;
+    }
+    .atTop>article>span:nth-of-type(2) {
+      width:430px;
+      border:1px #2cff14 solid;
+      color: #02c455;
+      padding: 0px 5px 30px;
+    }
+    .atTop>article>a {
+      display: block;
+      width:80px;
+      height:60px;
+      line-height:60px;
+      position: absolute;
+      right:5px;
+      top:50%;
+      margin-top:-30px;
+      text-align: center;
+      color: #333;
+    }
+  .atBottom {
+    height:320px;
+    width:1200px;
+    padding:10px;
+  }
+  .atBottom .atLeft {
+    float: left;
+    width:360px;
+    height:300px;
+  }
+    .atBottom .atLeft>h1 {
+      width:360px;
+      height:60px;
+      line-height:60px;
+      font-size:22px;
+      color: #02c455;
+    }
+    .atBottom .atLeft .viewScreen {
+      height:240px;
+      width:360px;
+    }
+      .atBottom .atLeft .viewScreen .mv {
+        height:180px;
+        width:360px;
+        background: #c9e8ff;
+      }
+      .atBottom .atLeft .viewScreen>p {
+        height:60px;
+        width:360px;
+
+      }
+    .atBottom .atRight {
+      float: right;
+      width:820px;
+      height:300px;
+      padding:0px 50px;
+      position: relative;
+    }
+      .atBottom .atRight>span {
+        display: block;
+        width:30px;
+        height:60px;
+        line-height:60px;
+        text-align: center;
+        border:1px #ccc solid;
+        background: #f7f7f9;
+        font-size:20px;
+        font-weight: 100;
+        position: absolute;
+        top:50%;
+        margin-top:-30px;
+        color: #ccc;
+      }
+      .atBottom .atRight>span.toLeft {
+        left:10px;
+      }
+        .atBottom .atRight>span.toLeft:hover {
+          background: #ff3622;
+        }
+      .atBottom .atRight>span.toRight {
+        right:10px;
+      }
+        .atBottom .atRight>span.toRight:hover {
+          background: #ff3622;
+        }
+      .atBottom .atRight .centerBox {
+        width:720px;
+        height:300px;
+      }
+      .atBottom .atRight .centerBox>ul {
+        width:720px;
+        height:300px;
+      }
+        .atBottom .atRight .centerBox>ul li {
+          width:220px;
+          height:260px;
+          margin:20px 10px;
+          float: left;
+          position: relative;
+          overflow: hidden;
+        }
+          .atBottom .atRight .centerBox>ul li>img {
+            width:220px;
+            height:260px;
+            float: left;
+          }
+          .atBottom .atRight .centerBox>ul li .details {
+            position: absolute;
+            bottom:-88px;
+            width:220px;
+            height:120px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.6);
+            -webkit-transition: bottom 500ms;
+            -moz-transition: bottom 500ms;
+            -ms-transition: bottom 500ms;
+            -o-transition: bottom 500ms;
+            transition: bottom 500ms;
+          }
+          .atBottom .atRight .centerBox>ul li .details:hover {
+            bottom:0px;
+          }
+            .atBottom .atRight .centerBox>ul li .details>h2 {
+              height:20px;
+              font-size:16px;
+              font-weight:bold;
+              width:180px;
+            }
+            .atBottom .atRight .centerBox>ul li .details>p:nth-of-type(1) {
+              color: #666;
+              width: 180px;
+              height:55px;
+              overflow: hidden;
+            }
+            .atBottom .atRight .centerBox>ul li .details>p:nth-of-type(2) {
+              height:20px;
+              line-height:20px;
+              width: 180px;
+              overflow: hidden;
+            }

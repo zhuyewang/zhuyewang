@@ -9,6 +9,7 @@ import { AppLogoComponent } from './app-logo/app-logo.component';
 import { HomeNavComponent } from './home-nav/home-nav.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { SelectivePreferenceComponent } from './selective-preference/selective-preference.component';
+import { AgriTourismeComponent } from './agri-tourisme/agri-tourisme.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SelectivePreferenceComponent } from './selective-preference/selective-p
     AppLogoComponent,
     HomeNavComponent,
     HomeBannerComponent,
-    SelectivePreferenceComponent
+    SelectivePreferenceComponent,
+    AgriTourismeComponent
   ],
   imports: [
     BrowserModule,
