@@ -10,6 +10,7 @@ import { HomeNavComponent } from './home-nav/home-nav.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { SelectivePreferenceComponent } from './selective-preference/selective-preference.component';
 import { AgriTourismeComponent } from './agri-tourisme/agri-tourisme.component';
+import {PlatformSupportComponent} from "./platform-support/platform-support.component";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AgriTourismeComponent } from './agri-tourisme/agri-tourisme.component';
     HomeNavComponent,
     HomeBannerComponent,
     SelectivePreferenceComponent,
-    AgriTourismeComponent
+    AgriTourismeComponent,
+    PlatformSupportComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+.platformSupport {
+  width: 1200px;
+  height: 70px;
+  margin: 15px auto;
+}
+.platformSupport>ul {
+  width: 1200px;
+  height: 70px;
+}
+.platformSupport>ul li {
+  width: 240px;
+  height: 70px;
+  float: left;
+  padding-left: 90px;
+  position: relative;
+}
+.platformSupport>ul li:nth-of-type(1) {                       /*图片*/
+  background: url("../../assets/img/QA01.png") 5px center no-repeat;
+}
+.platformSupport>ul li:nth-of-type(2) {
+  background: url("../../assets/img/QA02.png") 5px center no-repeat;
+}
+.platformSupport>ul li:nth-of-type(3) {
+  background: url("../../assets/img/QA03.png") 5px center no-repeat;
+}
+.platformSupport>ul li:nth-of-type(4) {
+  background: url("../../assets/img/QA04.png") 5px center no-repeat;
+}
+.platformSupport>ul li:nth-of-type(5) {
+  background: url("../../assets/img/QA05.png") 5px center no-repeat;
+}
+.platformSupport>ul li>h1 {
+  font-size: 20px;
+  font-weight:bold;
+  line-height: 40px;
+}
+.platformSupport>ul li>p {
+  font-size: 12px;
+  color: #999;
+  font-weight:bold;
+}
+.platformSupport>ul li>span {               /*斜杠*/
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  top:0;
+  right:0;
+  background: url("../../assets/img/xg.png") center center no-repeat;
+}
+
