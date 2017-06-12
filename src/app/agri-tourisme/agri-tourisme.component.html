@@ -20,10 +20,11 @@
       </div>
     </div>
     <div class="atRight">
-      <span class="toLeft">&lt;</span>
-      <span class="toRight">&gt;</span>
-      <div class="centerBox">
-        <ul>
+      <!-- 左右切换按钮 -->
+      <span id="toLeft" class="toLeft" (click)="toLeft()" >&lt;</span>
+      <span id="toRight" class="toRight" (click)="toRight()" >&gt;</span>
+      <div class="centerBox" style="position: relative;">
+        <ul id="box" style="position: absolute;left: 0;">
           <li>
             <img src="../../assets/img/bj01.png" alt="">
             <div class="details">
@@ -42,6 +43,14 @@
           </li>
           <li>
             <img src="../../assets/img/bj03.png" alt="">
+            <div class="details">
+              <h2>竹叶网生态园</h2>
+              <p>今天天气很好，适合去郊外旅游，每一场旅行都是对自己灵魂的一次修养</p>
+              <p>地址：河南省商丘市</p>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/bj01.png" alt="">
             <div class="details">
               <h2>竹叶网生态园</h2>
               <p>今天天气很好，适合去郊外旅游，每一场旅行都是对自己灵魂的一次修养</p>

@@ -107,6 +107,7 @@
         top:50%;
         margin-top:-30px;
         color: #ccc;
+        z-index: 1000;
       }
       .atBottom .atRight>span.toLeft {
         left:10px;
@@ -123,10 +124,14 @@
       .atBottom .atRight .centerBox {
         width:720px;
         height:300px;
+        position: relative;
+        overflow: hidden;
       }
-      .atBottom .atRight .centerBox>ul {
+      .atBottom .atRight .centerBox>ul {                                  /*旅游推荐的列表*/
         width:720px;
         height:300px;
+        position: absolute;
+        left:0;
       }
         .atBottom .atRight .centerBox>ul li {
           width:220px;
