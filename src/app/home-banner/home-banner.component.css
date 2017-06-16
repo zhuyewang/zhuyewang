@@ -7,46 +7,18 @@
   height:500px;
   float: left;
 }
-.bannerRight {
+.bannerRight {            /*右侧的列表广告*/
   width:300px;
   height:500px;
   float: right;
   overflow: hidden;
-}
-.bannerRight .bannerRightTop {
-  width: 300px;
-  height:360px;
-  overflow: hidden;
-}
-.bannerRight .bannerRightBottom {
-  width: 300px;
-  height:140px;
-  overflow: hidden;
-  border-top:1px #2cff14 dashed;
-}
-.bannerRightBottom #swiper-container2 h2 {
-  width: 300px;
-  height:80px;
-  line-height: 80px;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #2cff14;
-}
-.bannerRightBottom #swiper-container2 a {
-  width: 300px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  background: #ff3622;
-  color: #f1f1f1;
-  text-decoration: none;
-  display: block;
-  font-size: 24px;
+  position: relative;
 }
 .bannerRight>ul {
   width:300px;
   height: 500px;
+  position: absolute;
+  top:0;
 }
 .bannerRight>ul li {
   height: 125px;

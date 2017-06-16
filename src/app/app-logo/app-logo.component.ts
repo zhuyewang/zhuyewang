@@ -10,6 +10,7 @@ export class AppLogoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
