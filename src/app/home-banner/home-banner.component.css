@@ -42,3 +42,33 @@
   font-size: 16px;
   color: #fff;
 }
+/*右侧banner列表的动画*/
+@keyframes myfirst
+{
+  from {top: 0px;}
+  to {top: -126px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+  from {top: 0px;}
+  to {top: -126px;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+  from {top: 0px;}
+  to {top: -126px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+  from {top: 0px;}
+  to {top: -126px;}
+}
+.bannerRight>ul {
+  animation: myfirst 1s infinite;
+  -moz-animation: myfirst 1s infinite;	/* Firefox */
+  -webkit-animation: myfirst 1s infinite;	/* Safari 和 Chrome */
+  -o-animation: myfirst 1s infinite;	/* Opera */
+}
