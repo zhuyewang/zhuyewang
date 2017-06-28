@@ -80,7 +80,7 @@
         height:60px;
         line-height:60px;
         text-align: center;
-        background: #ff3622;
+        background: #e28886;
         position: absolute;
         bottom: -60px;
         color: #fff;
@@ -90,10 +90,10 @@
         -ms-transition: bottom 300ms;
         -o-transition: bottom 300ms;
       }
-.fruitConent>ul li>a>footer>i {
-  width: 10px;
-  height: 10px;
-}
+      .fruitConent>ul li>a>footer>i {
+        width: 10px;
+        height: 10px;
+      }
       .fruitConent>ul li>a:hover>footer {
         bottom: 0;
       }
