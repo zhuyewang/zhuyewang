@@ -11,6 +11,7 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { SelectivePreferenceComponent } from './selective-preference/selective-preference.component';
 import { AgriTourismeComponent } from './agri-tourisme/agri-tourisme.component';
 import {PlatformSupportComponent} from "./platform-support/platform-support.component";
+import { GardenStuffComponent } from './garden-stuff/garden-stuff.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {PlatformSupportComponent} from "./platform-support/platform-support.comp
     HomeBannerComponent,
     SelectivePreferenceComponent,
     AgriTourismeComponent,
-    PlatformSupportComponent
+    PlatformSupportComponent,
+    GardenStuffComponent
   ],
   imports: [
     BrowserModule,
