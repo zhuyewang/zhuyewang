@@ -6,51 +6,63 @@
   width: 1200px;
   height: 80px;
 }
-  .titleLeft {              /* 右侧标题 */
+.fruit .titleLeft {              /* 右侧标题 */
     float: left;
     height: 80px;
     width: 400px;
   }
-  .titleLeft>h1 {
+.fruit .titleLeft>h1 {
     display: inline-block;
     width:160px;
     height: 80px;
+    line-height: 80px;
+    font-size:22px;
+    font-weight:bold;
+    padding-left: 50px;
+    background: url("../../assets/img/gardenStuff/fruitLogo.png") no-repeat left center;
   }
-  .titleLeft>span {
+.fruit .titleLeft>span {
     display: inline-block;
     height: 25px;
     width: 165px;
     text-align: center;
   }
 
-  .customService {          /* 客服 */
-    float: right;
-    height: 25px;
-    width: 120px;
-  }
-.fruitConent {                              /* 内容区域 */
+.fruit .customService {          /* 客服 */
+  float: right;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  border:1px #333 solid;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  margin-top:25px;
+}
+.fruit .fruitConent {                              /* 内容区域 */
   width: 1200px;
   height: 460px;
 }
-  .fruitConent .leftAd {                      /* 左侧广告 */
+.fruit .fruitConent .leftAd {                      /* 左侧广告 */
     float: left;
     height: 460px;
     width: 400px;
   }
-.fruitConent .leftAd>img {
+.fruit .fruitConent .leftAd>img {
   margin-left: -50px;
 }
-  .fruitConent>ul {                             /* 右侧内容 */
+.fruit .fruitConent>ul {                             /* 右侧内容 */
     float: right;
     width: 800px;
     height: 460px;
   }
-    .fruitConent>ul li {
+.fruit .fruitConent>ul li {
       float: left;
       width: 200px;
       height: 230px;
     }
-    .fruitConent>ul li>a {
+.fruit .fruitConent>ul li>a {
       display: block;
       position: relative;
       width: 200px;
@@ -58,7 +70,7 @@
       overflow: hidden;
       padding: 10px;
     }
-    .fruitConent>ul li>a>p {
+.fruit .fruitConent>ul li>a>p {
       width: 210px;
       height:20px;
       line-height:20px;
@@ -67,7 +79,7 @@
       white-space: nowrap;
       color: #666;
     }
-    .fruitConent>ul li>a>span {
+.fruit .fruitConent>ul li>a>span {
       display: block;
       width: 210px;
       height:20px;
@@ -75,7 +87,7 @@
       text-align: center;
       color: #FE5860;
     }
-      .fruitConent>ul li>a>footer {
+.fruit .fruitConent>ul li>a>footer {
         width:200px;
         height:60px;
         line-height:60px;
@@ -90,10 +102,126 @@
         -ms-transition: bottom 300ms;
         -o-transition: bottom 300ms;
       }
-      .fruitConent>ul li>a>footer>i {
+.fruit .fruitConent>ul li>a>footer>i {
         width: 10px;
         height: 10px;
       }
-      .fruitConent>ul li>a:hover>footer {
+.fruit .fruitConent>ul li>a:hover>footer {
         bottom: 0;
       }
+
+.greens {                    /* 蔬菜 */
+  width: 1200px;
+  height: 540px;
+}
+.greens>header {
+  width: 1200px;
+  height: 80px;
+}
+.greens .titleLeft {              /* 右侧标题 */
+  float: left;
+  height: 80px;
+  width: 400px;
+}
+.greens .titleLeft>h1 {
+  display: inline-block;
+  width:160px;
+  height: 80px;
+  line-height: 80px;
+  font-size:22px;
+  font-weight:bold;
+  padding-left: 50px;
+  background: url("../../assets/img/gardenStuff/fruitLogo.png") no-repeat left center;
+}
+.greens .titleLeft>span {
+  display: inline-block;
+  height: 25px;
+  width: 165px;
+  text-align: center;
+}
+
+.greens .customService {          /* 客服 */
+  float: right;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  border:1px #333 solid;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  margin-top:25px;
+}
+.greens .fruitConent {                              /* 内容区域 */
+  width: 1200px;
+  height: 460px;
+}
+.greens .fruitConent .leftAd {                      /* 左侧广告 */
+  float: left;
+  height: 460px;
+  width: 400px;
+}
+.greens .fruitConent .leftAd>img {
+  margin-left: -50px;
+}
+.greens .fruitConent>ul {                             /* 右侧内容 */
+  float: right;
+  width: 800px;
+  height: 460px;
+}
+.greens .fruitConent>ul li {
+  float: left;
+  width: 200px;
+  height: 230px;
+}
+.greens .fruitConent>ul li>a {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 230px;
+  overflow: hidden;
+  padding: 10px;
+}
+.greens .fruitConent>ul li>a>img {
+  width:160px;
+  height:160px;
+}
+.greens .fruitConent>ul li>a>p {
+  width: 210px;
+  height:20px;
+  line-height:20px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  color: #666;
+}
+.greens .fruitConent>ul li>a>span {
+  display: block;
+  width: 210px;
+  height:20px;
+  line-height:20px;
+  text-align: center;
+  color: #FE5860;
+}
+.greens .fruitConent>ul li>a>footer {
+  width:200px;
+  height:60px;
+  line-height:60px;
+  text-align: center;
+  background: #e28886;
+  position: absolute;
+  bottom: -60px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: bottom 300ms;               /* 动画 */
+  -moz-transition: bottom 300ms;
+  -ms-transition: bottom 300ms;
+  -o-transition: bottom 300ms;
+}
+.greens .fruitConent>ul li>a>footer>i {
+  width: 10px;
+  height: 10px;
+}
+.greens .fruitConent>ul li>a:hover>footer {
+  bottom: 0;
+}
